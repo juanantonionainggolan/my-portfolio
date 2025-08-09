@@ -1,10 +1,10 @@
 
 "use client";
 import React, { useState } from "react";
-import Pill from "@/components/Pill";
-import Section from "@/components/Section";
-import LangToggle from "@/components/LangToggle";
-import { LOCALES, DATA, type LocaleKey } from "@/lib/data";
+import Pill from "../components/Pill";
+import Section from "../components/Section";
+import LangToggle from "../components/LangToggle";
+import { LOCALES, DATA, type LocaleKey } from "../lib/data";
 
 export default function Page() {
   const [lang, setLang] = useState<LocaleKey>(() => {
